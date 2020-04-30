@@ -1,4 +1,4 @@
-FROM python3
+FROM rackspacedot/python37
 
 COPY requirements.txt ./
 
