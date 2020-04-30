@@ -7,7 +7,7 @@ async function run() {
 
   const token = core.getInput("repoToken");
   try {
-    const octokit = new github.GitHub(token);
+    const oktokit = new github.GitHub(token);
 
     const newIssue = await oktokit.issue.create({
       repo: github.context.repo.repo,
@@ -21,3 +21,4 @@ async function run() {
 }
 
 run();
+##[error]oktokit is not defined
