@@ -21,4 +21,3 @@ async function run() {
 }
 
 run();
-##[error]oktokit is not defined
